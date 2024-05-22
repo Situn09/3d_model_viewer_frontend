@@ -25,8 +25,8 @@ const UploadDashboard = ({ setModels }) => {
       alert("Model uploaded successfully");
       setUploading(false);
     } catch (error) {
-      console.error(error);
-      alert("Failed to upload model");
+      alert(`Failed to upload model ${error.message}`);
+      setUploading(false);
     }
   };
 
@@ -37,7 +37,7 @@ const UploadDashboard = ({ setModels }) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        marginBottom: "100px",
+        marginBottom: "50px",
         gap: "9px",
       }}
     >

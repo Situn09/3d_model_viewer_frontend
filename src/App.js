@@ -79,14 +79,14 @@ const App = () => {
           >
             {models[index]?.url ? (
               <div>
-                <div style={{ width: "70vw" }}>
-                  <ModelViewer url={models[index].url} />
-                </div>
                 <h3
                   style={{ textAlign: "center", textTransform: "capitalize" }}
                 >
                   {models[index].name}
                 </h3>
+                <div style={{ width: "70vw", height: "500px" }}>
+                  <ModelViewer url={models[index].url} />
+                </div>
               </div>
             ) : (
               ""
