@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend/react-gh-pages/static/css/main.89a48730.css",
+    "main.js": "/frontend/react-gh-pages/static/js/main.6f340d79.js",
+    "static/js/206.f3a9d98d.chunk.js": "/frontend/react-gh-pages/static/js/206.f3a9d98d.chunk.js",
+    "static/media/load-37.gif": "/frontend/react-gh-pages/static/media/load-37.243b0242072d9a6ab939.gif",
+    "index.html": "/frontend/react-gh-pages/index.html",
+    "static/media/Left Arrow.svg": "/frontend/react-gh-pages/static/media/Left Arrow.7767c0164646a60669ad82ff596edaac.svg",
+    "static/media/Right Arrow.svg": "/frontend/react-gh-pages/static/media/Right Arrow.c8556eae526d07400fc84de1684a0e82.svg"
+  },
+  "entrypoints": [
+    "static/css/main.89a48730.css",
+    "static/js/main.6f340d79.js"
+  ]
+}
