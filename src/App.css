@@ -1,0 +1,52 @@
+.backgroundCircleL {
+  /* Bg Spotlight 1 */
+
+  position: fixed;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  left: -395px;
+  top: calc(50% - 550px / 2 - 429px);
+
+  background: white;
+  filter: blur(77px);
+}
+
+.backgroundCircleM {
+  /* Bg Spotlight 3 */
+
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: calc(50% - 550px / 2);
+  top: calc(50% - 550px / 2);
+
+  background: rgba(217, 217, 217, 0.15);
+  filter: blur(77px);
+}
+
+.backgroundCircleR {
+  /* Bg Spotlight 2 */
+
+  position: absolute;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  right: -395px;
+  top: calc(50% - 550px / 2 - 429px);
+
+  background: white;
+  filter: blur(77px);
+}
+/* .overlay {
+  Bg Overlay
+
+  position: absolute;
+  width: 1488px;
+  height: 1070px;
+  left: -23px;
+  top: -23px;
+
+  background: rgba(14, 14, 14, 0.12);
+  filter: blur(77px);
+} */
