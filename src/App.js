@@ -11,10 +11,14 @@ const App = () => {
   const [models, setModels] = useState([]);
   let [index, setIndex] = useState(0);
   useEffect(() => {
-    axios
-      .get("http://localhost:5000/api/models")
-      .then((response) => setModels(response.data))
-      .catch((error) => console.error(error.message));
+    try {
+      axios
+        .get("http://localhost:5000/api/models")
+        .then((response) => setModels(response.data))
+        .catch((error) => console.error(error.message));
+    } catch (error) {
+      console.log(error);
+    }
   }, []);
 
   const length = models.length;
