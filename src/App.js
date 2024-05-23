@@ -45,7 +45,10 @@ const App = () => {
         overflow: "hidden",
       }}
     >
-      {/* <div className="overlay"></div> */}
+      <div className="info">
+        i use free backend server so it take time to load backend server for
+        first time
+      </div>
       <div className="backgroundCircleL"></div>
       <div className="backgroundCircleM"></div>
       <div className="backgroundCircleR"></div>

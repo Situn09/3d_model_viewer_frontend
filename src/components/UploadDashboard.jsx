@@ -53,9 +53,10 @@ const UploadDashboard = ({ setModels }) => {
           required
         />
       </div>
-      <div style={{ marginLeft: "105px" }}>
+      <div className="uploadContainer">
         <label style={{ marginRight: "10px" }}>File:</label>
         <input
+          className="upload"
           type="file"
           onChange={(e) => setFile(e.target.files[0])}
           required

@@ -11,7 +11,13 @@
   background: white;
   filter: blur(77px);
 }
-
+.info {
+  position: relative;
+  z-index: 10;
+  font-weight: 900;
+  color: red;
+  text-align: center;
+}
 .backgroundCircleM {
   /* Bg Spotlight 3 */
 
@@ -50,3 +56,14 @@
   background: rgba(14, 14, 14, 0.12);
   filter: blur(77px);
 } */
+.uploadContainer {
+  margin-left: 105px;
+}
+@media (max-width: 600px) {
+  .upload {
+    width: 175px;
+  }
+  .uploadContainer {
+    margin-left: 24px;
+  }
+}
