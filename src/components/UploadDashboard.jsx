@@ -15,10 +15,13 @@ const UploadDashboard = ({ setModels }) => {
     formData.append("file", file);
     console.log(name, file);
     try {
-      await axios.post("http://localhost:5000/api/models", formData);
+      await axios.post(
+        "https://threed-model-viewer-backend.onrender.com/api/models",
+        formData
+      );
 
       axios
-        .get("http://localhost:5000/api/models")
+        .get("https://threed-model-viewer-backend.onrender.com/api/models")
         .then((response) => setModels(response.data))
         .catch((error) => console.error(error));
 

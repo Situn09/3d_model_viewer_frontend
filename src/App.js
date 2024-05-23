@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     try {
       axios
-        .get("http://localhost:5000/api/models")
+        .get("https://threed-model-viewer-backend.onrender.com/api/models")
         .then((response) => setModels(response.data))
         .catch((error) => console.error(error.message));
     } catch (error) {
