@@ -95,6 +95,21 @@ const App = () => {
               ""
             )}
           </Suspense>
+          {models.length === 0 ? (
+            <div
+              style={{
+                width: "70vw",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <div style={{ width: "100px" }}>
+                <img style={{ width: "100%" }} src={loadingGif} alt="loading" />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
           <div onClick={() => shiftRight()}>
             <img src={rightArrow} alt="right_arrow" />
           </div>
